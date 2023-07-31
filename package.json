@@ -1,0 +1,25 @@
+{
+  "name": "logseq-plugin-khoj",
+  "version": "0.0.1",
+  "author": "Sergi Pasoe",
+  "main": "index.html",
+  "description": "An AI Personal Assistant for working with your notes",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel ./index.html --public-url ./",
+    "build": "parcel build --public-url . --no-source-maps index.html"
+  },
+  "devDependencies": {
+    "@logseq/libs": "^0.0.15",
+    "parcel": "^2.9.3"
+  },
+  "browserslist": [
+    "chrome 80"
+  ],
+  "logseq": {
+    "id": "com.pasoevi.logseq.khoj",
+    "icon": "logseq.png"
+  },
+  "dependencies": {
+  }
+}
